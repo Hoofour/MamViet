@@ -1,0 +1,101 @@
+.home {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.banner {
+  position: relative;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  overflow: hidden; /* Để watermark không tràn */
+}
+
+.watermarkOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Dưới text */
+}
+
+.bannerContent {
+  position: relative;
+  z-index: 2; /* Text nổi lên trên watermark */
+  background-color: rgba(0, 0, 0, 0.4); /* Lớp phủ tối để text dễ đọc */
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 80%;
+}
+
+.bannerContent h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.bannerContent p {
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.productsSection h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.productCard {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  transition: box-shadow 0.3s;
+}
+
+.productCard:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.productCard img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.productCard h3 {
+  margin: 0.5rem 0;
+}
+
+.productCard p {
+  font-weight: bold;
+  color: #3D1700;
+  margin: 0.5rem 0;
+}
+
+.productCard button {
+  background-color: #3D1700;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.productCard button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,11 @@
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.about section {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-left: 4px solid #3D1700;
+}

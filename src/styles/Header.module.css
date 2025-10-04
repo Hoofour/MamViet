@@ -1,0 +1,44 @@
+.header {
+  background-color: #3D1700;
+  color: white;
+  padding: 1rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none; /* Không underline cho Link */
+}
+
+.logoImg {
+  height: 95px; /* Chiều cao logo, chỉnh theo file của bạn */
+  width: auto; /* Giữ tỷ lệ gốc */
+  max-height: 95px; /* Giới hạn max cho responsive */
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.nav a:hover,
+.active {
+  background-color: #555;
+}

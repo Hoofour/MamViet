@@ -1,0 +1,13 @@
+.products {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
