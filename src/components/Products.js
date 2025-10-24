@@ -9,10 +9,10 @@ const Products = () => {
 
   // Data sản phẩm (cùng với Home để nhất quán)
   const allProducts = [
-    { id: 1, name: 'Hộp bã mía', price: 5000, image: '/img1.jpg' }, 
-    { id: 2, name: 'Hộp xơ dừa', price: 4000, image: '/img2.jpg' }, 
-    { id: 3, name: 'Hộp bã mía x10', price: 40000, image: '/img1.jpg' },
-    { id: 4, name: 'Hộp xơ dừa x10', price: 35000, image: '/img2.jpg' },
+    { id: 1, name: 'Hộp đựng thức ăn (700ml)', price: 3500, image: '/img1.jpg' },
+    { id: 2, name: 'Hộp đựng thức ăn (1000ml)', price: 4500, image: '/img2.jpg' },
+    { id: 3, name: 'Hộp đựng thức ăn (700ml) x10', price: 35000, image: '/img1.jpg' },
+    { id: 4, name: 'Hộp đựng thức ăn (1000ml) x10', price: 45000, image: '/img2.jpg' },
 
   ];
 

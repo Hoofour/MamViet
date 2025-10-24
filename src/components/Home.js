@@ -14,10 +14,10 @@ export const ProductList = ({ products = [], limit = 6, onAddToCart }) => {
   });
 
   const defaultProducts = [
-    { id: 1, name: 'Hộp bã mía', price: 5000, image: '/img1.jpg' },
-    { id: 2, name: 'Hộp xơ dừa', price: 4000, image: '/img2.jpg' },
-    { id: 3, name: 'Hộp bã mía x10', price: 40000, image: '/img1.jpg' },
-    { id: 4, name: 'Hộp xơ dừa x10', price: 35000, image: '/img2.jpg' },
+    { id: 1, name: 'Hộp đựng thức ăn (700ml) x1', price: 3500, image: '/img1.jpg' },
+    { id: 2, name: 'Hộp đựng thức ăn (1000ml) x1', price: 4500, image: '/img2.jpg' },
+    { id: 3, name: 'Hộp đựng thức ăn (700ml) x10', price: 35000, image: '/img1.jpg' },
+    { id: 4, name: 'Hộp đựng thức ăn (1000ml) x10', price: 45000, image: '/img2.jpg' },
   ];
 
   const displayProducts = products.length > 0 ? products.slice(0, limit) : defaultProducts.slice(0, limit);
@@ -58,8 +58,8 @@ const Home = () => {
         {/* Watermark layer */}
 
         <div className={styles.bannerContent}>
-          <h1>Chào mừng đến với Mầm Việt</h1>
-          <p>Giữ trọn vị ngon, trả lại thiên nhiên</p>
+          <h1>HỘP ĐỰNG THỨC ĂN MẦM VIỆT</h1>
+          <p>Gieo xanh từ bã mía, lớn cùng thiên nhiên</p>
         </div>
       </div>
       <section className={styles.productsSection}>
